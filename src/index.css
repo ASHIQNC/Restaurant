@@ -1,13 +1,54 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#t1 {
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#t1:hover {
+  transform: scale(1.2);
+}
+
+#t2 {
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+#t2:hover {
+  transform: scale(1.2);
+  color: orangered;
+}
+#t3 {
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+#t3:hover {
+  transform: scale(0.9);
+}
+
+#t4 {
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+#t4:hover {
+  transform: scaleX(-1);
+  color: orangered;
+}
+
+#t5 {
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+#t5:hover {
+  transform: scale(0.9);
+  opacity: 0.5;
+}
+
+#t6 {
+  transition: transform 0.7s ease-in-out;
+  cursor: pointer;
+}
+#t6:hover {
+  transform: rotate(30deg);
 }

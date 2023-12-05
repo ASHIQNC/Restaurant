@@ -1,0 +1,237 @@
+.menu__Wrapper {
+  min-height: 100vh;
+
+  width: 100%;
+}
+
+.menu__Wrapper_top-section {
+  background-image: url("https://i.postimg.cc/FszQP5Ch/lidye-1-Shk-Pk-Nk-Nw-unsplash.jpg");
+  /* background-image: url("https://i.postimg.cc/RZNvd8KM/pexels-hasan-kurt-10749578.jpg"); */
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh;
+  filter: brightness(50%);
+}
+
+.menu__header__Style {
+  color: white;
+  font-size: 30px;
+}
+.menu__sub-header {
+  color: white;
+  font-size: 10px;
+  margin-left: 3px;
+  letter-spacing: 3px;
+}
+
+.menu__Wrapper__content {
+  position: relative;
+}
+
+.menu__header__wrapper {
+  display: flex;
+  position: absolute;
+  top: 104px;
+  left: 96vh;
+}
+
+.menu__header__Wrapper__image {
+  margin-left: 45px;
+  margin-right: 11px;
+}
+
+.menu__header__second-section {
+  position: absolute;
+  bottom: 125px;
+  left: 40%;
+  color: white;
+}
+.flavour-section__style {
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+.second__Section__menu {
+  font-size: 63px;
+  margin-bottom: 50px;
+  color: white;
+}
+.menu__content__section-wrapper {
+  width: 100%;
+
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top: -2px;
+
+  /* background-image: url("https://i.postimg.cc/J4FwtNsF/hermes-rivera-Ww8e-QWj-MJWk-unsplash-removebg-preview.png"); */
+  background-image: url("https://i.postimg.cc/Kzt3mS5G/mae-mu-ec-UVGNZA1-TM-unsplash.jpg");
+  background-size: 100% 100%;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  /* height: 80vh; */
+  /* filter: brightness(50%); */
+}
+
+.menu__food__Section {
+  width: 90%;
+
+  min-height: 80vh;
+}
+
+/* card */
+
+.menu__card__Wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu__container-image__section1 {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.menu__para__style {
+  font-size: 15px;
+  max-width: 268px;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* footer */
+
+.footer__container__wrapper {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__container__left-section {
+  width: 40%;
+  height: 80vh;
+}
+.footer__container__right-section {
+  width: 40%;
+  height: 80vh;
+
+  padding: 40px;
+  background-color: black;
+  border-radius: 14px;
+  color: white;
+  margin-left: -36px;
+}
+.footer__image__style {
+  width: 100%;
+  height: inherit;
+  /* filter: brightness(50%); */
+  border-radius: 11px;
+}
+
+.footer__heading-style {
+  font-size: 50px;
+  margin-top: 38px;
+  margin-bottom: 35px;
+}
+
+.footer__para-style {
+  max-width: 380px;
+}
+
+.breakfast__style1 {
+  height: 300px;
+  width: 75%;
+}
+
+/* reservationform wrapper */
+.reservation-form__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .menu__header__wrapper {
+    top: 95px;
+    left: 30%;
+  }
+
+  .menu__header__second-section {
+    bottom: 34%;
+    left: 22%;
+  }
+  .second__Section__menu {
+    font-size: 50px;
+  }
+
+  .menu__card__Wrapper {
+    flex-direction: column;
+  }
+  .menu__container-image__section1 {
+    width: 100%;
+  }
+
+  .footer__container__wrapper {
+    flex-direction: column;
+  }
+
+  .footer__container__left-section {
+    width: 94%;
+    height: 59vh;
+    margin-top: 24px;
+  }
+
+  .footer__container__right-section {
+    width: 94%;
+
+    margin-left: 0px;
+    margin-top: -34px;
+    margin-bottom: 42px;
+  }
+  .menu__content__section-wrapper {
+    margin-top: -4px;
+  }
+}
+
+/* Medium screens (between 601px and 900px)  */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .menu__header__wrapper {
+    /* Add your styles for medium screens */
+
+    top: 95px;
+    left: 43%;
+  }
+
+  .menu__header__second-section {
+    /* Add your styles for medium screens */
+
+    bottom: 34%;
+    left: 35%;
+  }
+}
+
+/* Large screens (greater than 900px) */
+@media only screen and (min-width: 901px) {
+  .menu__header__wrapper {
+    /* Add your styles for large screens */
+
+    top: 95px;
+    left: 46%;
+  }
+
+  .menu__header__second-section {
+    /* Add your styles for large screens */
+    bottom: 25%;
+    left: 41%;
+  }
+}

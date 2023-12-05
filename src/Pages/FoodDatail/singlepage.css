@@ -1,0 +1,204 @@
+.single__page__wrapper {
+  width: 100%;
+
+  min-height: 100vh;
+
+  margin-top: 61px;
+}
+
+.single__container__left-section {
+  width: 40%;
+  height: 80vh;
+}
+.single__container__right-section {
+  width: 40%;
+  height: 80vh;
+
+  padding: 40px;
+  background-color: black;
+  border-radius: 14px;
+  color: white;
+  margin-left: -36px;
+}
+.single__image__style {
+  width: 100%;
+  height: inherit;
+  /* filter: brightness(50%); */
+  border-radius: 11px;
+}
+
+.single__heading-style {
+  font-size: 50px;
+  margin-top: 38px;
+  margin-bottom: 35px;
+}
+
+.single__para-style {
+  max-width: 380px;
+}
+
+/*  */
+
+.single__Wrapper_top-section {
+  /* background-image: url("https://i.postimg.cc/FszQP5Ch/lidye-1-Shk-Pk-Nk-Nw-unsplash.jpg"); */
+  background-image: url("https://i.postimg.cc/QCb425ft/alex-munsell-Yr4n8-O-3-UPc-unsplash.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vh;
+  filter: brightness(50%);
+}
+
+.single__header__Style {
+  color: white;
+  font-size: 30px;
+}
+.single__sub-header {
+  color: white;
+  font-size: 10px;
+  margin-left: 3px;
+  letter-spacing: 3px;
+}
+
+.single__Wrapper__content {
+  position: relative;
+  width: 100%;
+}
+
+.single__header__wrapper {
+  display: flex;
+  position: absolute;
+  top: 104px;
+  left: 96vh;
+}
+
+.single__header__Wrapper__image {
+  margin-left: 45px;
+  margin-right: 11px;
+}
+
+.single__header__second-section {
+  position: absolute;
+  bottom: 125px;
+  left: 40%;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flavour-section__style {
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+.single__second__Section__menu {
+  font-size: 63px;
+  margin-bottom: 50px;
+  color: white;
+
+  max-width: 116vh;
+}
+
+/* card style wrapper */
+.single__card__content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.single-page__button__style__wrapper {
+  margin-top: 10px;
+  background-color: transparent;
+  height: 48px;
+  width: 50%;
+  color: white;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid green;
+  border-radius: 19px;
+}
+.single-page__button__style__wrapper:hover {
+  background-color: #5fc9acab;
+  border: none;
+  color: black;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .single__page__wrapper {
+    flex-direction: column;
+  }
+  .single__card__content {
+    flex-direction: column;
+  }
+
+  .single__container__left-section {
+    width: 94%;
+    height: 59vh;
+    margin-top: 24px;
+  }
+
+  .single__container__right-section {
+    width: 94%;
+
+    margin-left: 0px;
+    margin-top: -34px;
+    margin-bottom: 42px;
+  }
+
+  .single__header__wrapper {
+    top: 95px;
+    left: 30%;
+    /* display: none; */
+  }
+
+  .single__header__second-section {
+    bottom: 5%;
+    left: 6%;
+  }
+  .single__second__Section__menu {
+    font-size: 50px;
+  }
+
+  .single__Wrapper_top-section {
+    height: 81vh;
+  }
+}
+
+/* Medium screens (between 601px and 900px)  */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .single__header__wrapper {
+    /* Add your styles for medium screens */
+
+    top: 15%;
+    left: 43%;
+  }
+
+  .single__header__second-section {
+    /* Add your styles for medium screens */
+
+    bottom: 13%;
+    left: 7%;
+  }
+}
+
+/* Large screens (greater than 900px) */
+@media only screen and (min-width: 901px) {
+  .single__header__wrapper {
+    /* Add your styles for large screens */
+
+    top: 68px;
+    left: 46%;
+  }
+
+  .single__header__second-section {
+    /* Add your styles for large screens */
+    bottom: 9%;
+    left: 25%;
+  }
+}
